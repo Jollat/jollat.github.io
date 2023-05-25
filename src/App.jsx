@@ -92,7 +92,7 @@ function App() {
                   <div className="humidity">
                     {data.city ? (
                       <>
-                        <img src="./assets/raindrop.svg" />
+                        <img src="../public/raindrop.svg" />
                         <p>{data.list[0].main.humidity} %</p>
                       </>
                     ) : null}
@@ -100,7 +100,7 @@ function App() {
                   <div className="pressure">
                     {data.city ? (
                       <>
-                        <img src="./assets/pressure.svg" />
+                        <img src="../public/pressure.svg" />
                         <p>{data.list[0].main.pressure} мм рт. ст.</p>
                       </>
                     ) : null}
@@ -108,7 +108,7 @@ function App() {
                   <div className="pressure">
                     {data.city ? (
                       <>
-                        <img src="./assets/wind.svg" />
+                        <img src="../public/wind.svg" />
                         <p>{data.list[0].wind.speed} м/с</p>
                       </>
                     ) : null}
@@ -140,11 +140,11 @@ function App() {
                       </div>
                       <div>
                         <div className="pressure_time">
-                          <img src="./assets/raindrop.svg" />
+                          <img src="../public/raindrop.svg" />
                           <p>{data.list[item].main.humidity} %</p>
                         </div>
                         <div className="pressure_time">
-                          <img src="./assets/wind.svg" />
+                          <img src="../public/wind.svg" />
                           <p>{data.list[item].wind.speed} м/с</p>
                         </div>
                       </div>
@@ -190,15 +190,15 @@ function App() {
                         </div>
                         <div className="second_time_box">
                           <div className="second_time">
-                            <img src="./assets/raindrop.svg" />
+                            <img src="../public/raindrop.svg" />
                             <p>{data.list[item].main.humidity} %</p>
                           </div>
                           <div className="second_time">
-                            <img src="./assets/pressure.svg" />
+                            <img src="../public/pressure.svg" />
                             <p>{data.list[item].main.pressure} мм</p>
                           </div>
                           <div className="second_time">
-                            <img src="./assets/wind.svg" />
+                            <img src="../public/wind.svg" />
                             <p>{data.list[item].wind.speed} м/с</p>
                           </div>
                         </div>
