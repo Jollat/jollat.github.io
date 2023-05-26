@@ -240,9 +240,8 @@ input:focus::placeholder {
 }
 
 .second_weather {
-  width: 20%;
+  width: 140px;
   margin: 0px 8px;
-  height: 290px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

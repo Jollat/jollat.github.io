@@ -8,7 +8,6 @@ function App() {
   const [location, setLocation] = useState('')
 
   const dataArr = Object.entries(data)
-  console.log(dataArr)
 
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&lang=ru&appid=82e43bfde1f68ae9d5ebe65ce5486863&units=metric`
   const urlIcon = data.city
@@ -19,7 +18,6 @@ function App() {
     if (e.key === 'Enter') {
       axios.get(url).then((response) => {
         setData(response.data)
-        console.log(response.data)
       })
       setLocation('')
     }
@@ -28,7 +26,6 @@ function App() {
   const searchLocationHandler = () => {
     axios.get(url).then((response) => {
       setData(response.data)
-      console.log(response.data)
     })
     setLocation('')
   }
