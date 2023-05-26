@@ -235,17 +235,17 @@ input:focus::placeholder {
 .second_container {
   display: flex;
   align-items: center;
-  margin-top: 40px;
-  justify-content: space-around;
+  margin: 20px 0px;
+  justify-content: center;
 }
 
 .second_weather {
-  width: 25%;
-  margin: -20px 10px;
-  height: 330px;
+  width: 20%;
+  margin: 0px 5px;
+  height: 290px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.323);
   backdrop-filter: blur(3px);
@@ -256,7 +256,14 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.second_date > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .second_pct {
@@ -265,19 +272,18 @@ input:focus::placeholder {
 }
 
 .second_pct > img {
-  margin-top: -10px;
-  /* margin-bottom: 20px; */
-  width: 90px;
+  width: 80px;
 }
 
 .second_status {
-  margin-top: -30px;
+  margin-top: 5px;
 }
 
 .second_status > p {
-  height: 50px;
+  height: 40px;
+  margin: -12px 0px 12px 0px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,29 +295,34 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   font-weight: 600;
 }
 .second_temp > p {
-  font-size: 30px;
+  font-size: 24px;
 }
+
 .second_time_box {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .second_time {
-  width: 80px;
+  width: 100%;
+  height: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: start; */
 }
 .second_time > img {
-  width: 25px;
+  width: 20px;
   padding: 0;
+  margin-left: 10px;
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 .second_time > p {
@@ -319,6 +330,6 @@ input:focus::placeholder {
   font-weight: 600;
   align-items: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   padding: 0;
 }
